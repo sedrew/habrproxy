@@ -20,6 +20,6 @@ from django.conf.urls import url
 
 urlpatterns = [
 
-    url(''+'(?P<urlt>.*)', proxy_view),
+    url('(?P<urlt>.*)', proxy_view),
 
 ]
